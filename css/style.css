@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --bg-color: rgb(255, 253, 249);
+    --font-color: #113;
+}
+
+path {
+    fill: red;
+}
+
+body {
+    max-width: 40rem;
+    margin-inline: auto;
+    padding: 2rem;
+    font-family: 'Libre Baskerville', serif;
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px dotted var(--font-color);
+    margin-bottom: 1.5rem;
+    ;
+}
+
+.social-icon {
+    width: 1.25rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    ;
+}
+
+section {
+    margin-block: 2rem;
+}
+
+.subsection {
+    padding-left: 1rem;
+    margin-block: 1rem;
+}
+
+h2+.subsection {
+    margin-top: 0.5rem;
+}
+
+.job-title,
+.degree-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+}
+
+.job-role,
+.degree-school {
+    font-weight: 700;
+}
+
+.job-dates,
+.degree-dates {
+    font-size: 0.9rem;
+    font-style: italic;
+}
