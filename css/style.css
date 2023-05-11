@@ -33,9 +33,9 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     border-bottom: 1px dotted var(--font-color);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     ;
 }
 
@@ -47,7 +47,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 1rem;
-    ;
 }
 
 a {
@@ -83,4 +82,14 @@ h2+.subsection {
 .degree-dates {
     font-size: 0.9rem;
     font-style: italic;
+}
+
+@media (max-width: 40rem) {
+    header {
+        display: inherit;
+    }
+
+    nav {
+        margin-top: 0.6rem;
+    }
 }
