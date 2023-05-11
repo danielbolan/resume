@@ -10,10 +10,6 @@
     --font-color: #113;
 }
 
-path {
-    fill: red;
-}
-
 body {
     max-width: 40rem;
     margin-inline: auto;
