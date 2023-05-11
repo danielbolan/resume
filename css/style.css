@@ -8,6 +8,7 @@
 :root {
     --bg-color: rgb(255, 253, 249);
     --font-color: #113;
+    --link-color: rgb(1, 61, 159);
 }
 
 body {
@@ -38,6 +39,10 @@ nav {
     align-items: center;
     gap: 1rem;
     ;
+}
+
+a {
+    color: var(--link-color);
 }
 
 section {
