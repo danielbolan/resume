@@ -6,10 +6,19 @@
 }
 
 :root {
-    --bg-color: rgb(255, 253, 249);
-    --font-color: #113;
-    --link-color: rgb(1, 61, 159);
+    --bg-color: #fffdf9;
+    --font-color: #080829;
+    --link-color: #0f54c3;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --font-color: #fffdf9;
+        --bg-color: #181822;
+        --link-color: #6096ee;
+    }
+}
+
 
 body {
     max-width: 40rem;
