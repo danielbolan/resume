@@ -13,8 +13,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --font-color: #fffdf9;
         --bg-color: #181822;
+        --font-color: #fffdf9;
         --link-color: #6096ee;
     }
 }
@@ -36,7 +36,6 @@ header {
     padding-bottom: 2rem;
     border-bottom: 1px dotted var(--font-color);
     margin-bottom: 2rem;
-    ;
 }
 
 .social-icon {
@@ -60,28 +59,6 @@ section {
 .subsection {
     padding-left: 1rem;
     margin-block: 1rem;
-}
-
-h2+.subsection {
-    margin-top: 0.5rem;
-}
-
-.job-title,
-.degree-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 0.1rem;
-}
-
-.job-role,
-.degree-school {
-    font-weight: 700;
-}
-
-.job-dates,
-.degree-dates {
-    font-size: 0.9rem;
-    font-style: italic;
 }
 
 @media (max-width: 40rem) {
