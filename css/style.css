@@ -27,7 +27,7 @@ body {
     font-family: 'Libre Baskerville', serif;
     color: var(--font-color);
     background-color: var(--bg-color);
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 header {
@@ -35,7 +35,15 @@ header {
     justify-content: space-between;
     padding-bottom: 2rem;
     border-bottom: 1px dotted var(--font-color);
-    margin-bottom: 2rem;
+    margin-bottom: 1.33rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+.subtitle {
+    margin-top: -0.3rem;
 }
 
 .social-icon {
@@ -48,25 +56,42 @@ nav {
     gap: 1rem;
 }
 
+@media (max-width: 40rem) {
+    header {
+        display: inherit;
+    }
+}
+
 a {
     color: var(--link-color);
 }
 
 section {
-    margin-block: 2rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
 }
 
 .subsection {
-    padding-left: 1rem;
-    margin-block: 1rem;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-@media (max-width: 40rem) {
-    header {
-        display: inherit;
-    }
 
-    nav {
-        margin-top: 0.6rem;
-    }
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    margin-block: 0.5rem;
+}
+
+.title {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+    border-bottom: 1px var(--link-color) dotted;
 }
