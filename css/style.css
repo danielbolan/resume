@@ -21,7 +21,7 @@
 
 
 body {
-    max-width: 40rem;
+    max-width: 60rem;
     margin-inline: auto;
     padding: 2rem;
     font-family: 'Libre Baskerville', serif;
@@ -73,6 +73,7 @@ section {
 h2 {
     margin-bottom: 0.5rem;
     font-size: 1.75rem;
+    text-decoration: underline;
 }
 
 .subsection {
@@ -82,7 +83,7 @@ h2 {
 
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 p {
